@@ -1,0 +1,39 @@
+.blue {
+  color: blue;
+}
+.white {
+  color: white;
+}
+h1 { /* I used this here, just to have something that was not a class, even if I could also have assigned the color and size to one */
+font-size: 100px;
+color: khaki;
+}
+.bold {
+  font-weight: bold;
+}
+.fontH {
+  font-family: Helvetica;
+}
+.size32 {
+  font-size: 32px;
+}
+.colorbMSGreen { /* Was thinking hard about naming convention for these classes, trying to get something similar in style for all colors, yet somewhat of a chance to differentiate. Not great though */
+  background-color: mediumspringgreen;
+}
+.colorbSBlue {
+  background-color: skyblue;
+}
+.colorbLCoral {
+  background-color: lightcoral;
+}
+.center {
+  text-align: center;
+}
+.titleImage {
+  background-image: url("../../Resources/pattern.jpeg");
+  background-color: black; /* Added this part in case of image failing to show */
+}
+
+body {
+  background-color: white; /* Added this line as my default for browser was a gray background, thus this ensures a match with the showpage given - even if not specified in the design spec */
+}
